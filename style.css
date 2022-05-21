@@ -1,0 +1,76 @@
+body {
+    font-family: Bradley Hand, cursive;
+}
+h4 {
+    text-align: center;
+}BODY {
+font-family:Bradley Hand, cursive;
+background-color: #fbbe18;
+color: black} h1 {
+    text-align: center;}
+
+img{
+    width: 240px;
+    height: 300px
+}
+* {
+   box-sizing: border-box;
+}
+.product-item {
+   width: 300px;
+   text-align: center;
+   margin: 0 auto;
+   border-bottom: 2px solid #ffffff;
+   background: white;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+}
+.product-item:hover {
+   border-bottom: 2px solid #ffffff;
+}
+.product-item img {
+   display: block;
+   width: 100%;
+}
+.product-list {
+   background: #ffffff;
+   padding: 15px 0;
+}
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+.price {
+   font-size: 16px;
+   color: #000000;
+   display: block;
+   margin-bottom: 12px;
+}
+.button {
+   text-decoration: none;
+   display: inline-block;
+   padding: 0 12px;
+   background: #ffffff;
+   color: rgb(255, 255, 255);
+   text-transform: uppercase;
+   font-size: 12px;
+   line-height: 28px;
+   transition: .3s ease-in;
+}
+.product-item:hover .button {
+   background: #fc5a5a;
+}
+
+.total{
+    display: flex;
+}
+
+.total2{
+    display: flex;
+}
+
+.total3{
+    display: flex;
+}
